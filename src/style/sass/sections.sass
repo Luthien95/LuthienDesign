@@ -1,0 +1,126 @@
+@import general
+
+.c-home
+    display: flex
+    flex-direction: row
+    width: 100%
+    &__introducing,
+    &__image
+        @include horizontalCenter
+        flex-direction: column
+        width: 50%
+        height: 100%
+    &__introducing
+        margin: 5px 0px 5px 200px
+        p
+            font-size: $font-normal
+            &:first-of-type
+                color: $primary-color
+                font-weight: 600
+        h1
+            font-size: 2 * $font-normal
+            font-weight: 500
+    &__image img
+        width: 60%
+        z-index: 2
+        margin-left: 0
+    &__letter
+        position: absolute
+        font-weight: 600
+        z-index: -1
+        font-size: 30rem
+        user-select: none
+        margin-left: 150px
+        color: $primary-color
+        -webkit-margin-before: 0px
+    &__button
+        margin-top: 50px
+        a
+            display: inline-table
+            height: 0
+            color: black
+            white-space: nowrap
+            margin: 0
+            text-decoration: none
+            font-weight: 300
+            &:after
+                background: $primary-color
+                width: 0px
+                height: 10px
+                position: relative
+                content: ""
+                display: block
+                transition: all 200ms ease-in-out
+                top: -10px
+                z-index: -1
+            &:hover:after
+                width: 100%
+.c-about
+    width: 80%
+    margin-left: 10%
+    box-sizing: content-box
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    .o-subtitle
+        margin: 0 !important
+        font-weight: 500
+        color: $primary-color
+    h1
+        margin: 0
+        font-size: 3rem
+        font-weight: 500
+        margin-bottom: 50px
+    h2
+        &:first-of-type
+            margin-top: 30px
+    &__informations
+        @include horizontalCenter
+        flex-direction: column
+        p
+            margin: 5px 0
+            font-weight: 300
+            &:last-of-type
+                word-spacing: 5px
+    &__contact-box
+        width: 100%
+        display: flex
+        flex-direction: row
+        margin-top: 30px
+        .o-informations
+            width: 70%
+            opacity: .7
+            display: flex
+            flex-direction: row
+            @media only screen and (max-width: 950px)
+                width: 100%
+            p,h3
+                font-weight: 500
+                i
+                    opacity: .7
+                    margin: 5px
+            p:last-child
+                font-weight: 200
+            h3
+                font-size: $font-normal
+                color: black
+            &-icons
+                flex-direction: row
+                display: flex
+                width: 30%
+                align-items: center
+                margin: 5px 0
+                &:nth-child(2)
+                    width: 40%
+                i
+                    font-size: $font-big
+                    color: $primary-color
+                p,h3
+                    margin-left: 5%
+                    opacity: 1
+                p
+                    font-weight: 400 !important
+                h3
+                    margin-left: 15%
+
+@import responsive

@@ -1,0 +1,134 @@
+$primary-color: #0fc
+$font-normal: 1rem
+$font-sm: 0.8rem
+$font-md: 1.2rem
+$font-big: 1.6rem
+
+@mixin flexCenter 
+    display: flex
+    justify-content: center
+    align-items: center
+    
+@mixin horizontalCenter
+    display: flex
+    justify-content: center
+    
+@mixin buttonsHover
+    content: ''
+    position: absolute
+    color: #000
+    top: 50%
+    left: 0
+    height: 50%
+    background-color: $primary-color
+
+@mixin iconsHover
+    transform: scale(1.5)
+    transition-duration: 1s
+    cursor: pointer
+html,
+body
+    font-size: 100%
+    font-family: "Montserrat", sans-serif
+    overflow: hidden
+    color: black
+    @media only screen and (min-width: 1600px)
+        font-size: 140%
+    h1
+        line-height: 1.5
+        font-weight: 400
+        font-size: $font-big
+    h2
+        font-weight: 400
+        font-size: $font-sm
+    h3
+        font-size: $font-sm
+        font-weight: 200
+        color: white
+    p
+        font-size: $font-sm
+        line-height: 1.9
+        opacity: .8
+        font-weight: 200
+    .website__website-body
+        display: flex
+        height: calc(100% - 200px)
+        width: 100%
+        overflow-x: hidden
+        overflow-y: scroll
+        padding-right: 20px
+        box-sizing: content-box
+
+.o-animated-box
+    position: relative
+    width: 80%
+    margin-right: 20%  
+    h1 ,
+    svg
+        opacity: 0
+    &.animate
+        h1,
+        svg
+            animation: textHidden 0.1s 1.1s forwards
+        &:before, &:after 
+            content: ''
+            position: absolute
+            top: 0
+            right: 0
+            height: 100%
+            z-index: 10
+        &:before 
+            background-color: $primary-color
+        &:after
+            animation-delay: .5s
+    &.o-box-animation.animate
+        &:before 
+            animation: boxSizing 1.8s ease
+        &:after 
+            animation: boxSizing 1s .6s ease
+@keyframes boxSizing 
+    0%
+        width: 0
+        left: 0
+    65%
+        width: 100%
+        left: 0
+    100% 
+        width: 0
+        left: 100%
+
+@keyframes textHidden 
+    0% 
+        opacity: 0
+    100% 
+        opacity: 1
+
+@keyframes textHide 
+    0% 
+        opacity: 1
+    100% 
+        opacity: 0
+
+@keyframes fade 
+    from 
+        opacity: 0.4
+    to 
+        opacity: 1
+
+@keyframes navSizing
+    0%
+        height: 0px
+    100%
+        height: 100vh
+
+@keyframes navClosing
+    0%
+        height: 100vh
+    100%
+        height: 0px
+
+@keyframes appear
+    0%
+        height: 0
+    100%
+        height: 100%

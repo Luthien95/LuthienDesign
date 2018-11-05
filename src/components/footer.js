@@ -32,7 +32,7 @@ class Footer extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github" />
           </a>
         </div>
       </footer>

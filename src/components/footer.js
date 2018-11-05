@@ -28,11 +28,11 @@ class Footer extends Component {
             <i className="fab fa-deviantart" />
           </a>
           <a
-            href="https://www.facebook.com/aleksandra.salak"
+            href="https://github.com/Luthien95"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fab fa-facebook-f" />
+            <i class="fab fa-github"></i>
           </a>
         </div>
       </footer>

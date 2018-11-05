@@ -18,7 +18,6 @@ class Illustration extends Component {
     this.fading = this.fading.bind(this);
   }
 
-  /* Powielone, sprawdzic jak to wywalic!! */
   componentDidMount() {
     const element = this.refs.node;
     element.addEventListener("animationend", this.fading);

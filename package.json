@@ -1,6 +1,7 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
+  "homepage": "https://imię.github.io/LuthienDesign",
   "private": true,
   "dependencies": {
     "@sendgrid/mail": "^6.3.1",

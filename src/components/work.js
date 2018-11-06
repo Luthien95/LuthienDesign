@@ -19,7 +19,7 @@ const Work = () => (
           component={DigitalPainting}
         />
         <Route
-          path="LuthienDesign/work/illustration"
+          path="/LuthienDesign/work/illustration"
           component={Illustration}
         />
         <Route path="/LuthienDesign/work/webdesign" component={WebDesign} />

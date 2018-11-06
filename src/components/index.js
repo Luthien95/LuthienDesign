@@ -18,7 +18,7 @@ class Index extends Component {
             </h1>
           </div>
           <div className="c-home__button">
-            <NavLink to="/aboutme">Read more</NavLink>
+            <NavLink to="/LuthienDesign/aboutme">Read more</NavLink>
           </div>
         </div>
         <div className="c-home__image">

@@ -14,8 +14,8 @@ const Main = () => (
       <div className="website__website-body">
         <Switch>
           <Route exact path="/LuthienDesign/" component={Index} />
-          <Route path="/aboutme" component={About} />
-          <Route path="/work" component={Work} />
+          <Route path="/LuthienDesign/aboutme" component={About} />
+          <Route path="/LuthienDesign/work" component={Work} />
         </Switch>
       </div>
       <Footer />

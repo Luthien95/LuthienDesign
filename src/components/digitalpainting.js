@@ -175,14 +175,25 @@ class Slider extends Component {
     var clickStyles = {};
 
     if (this.state.open) {
-      clickStyles = {
-        width: "auto",
-        height: "90%",
-        position: "absolute",
-        top: "50%",
-        left: "50%",
-        transform: "translate(-50%, -50%)"
-      };
+      if (window.innerWidth < 950) {
+        clickStyles = {
+          height: "auto",
+          width: "90%",
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)"
+        };
+      } else {
+        clickStyles = {
+          width: "auto",
+          height: "90%",
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)"
+        };
+      }
     }
 
     return (

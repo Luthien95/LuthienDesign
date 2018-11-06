@@ -14,7 +14,7 @@ class Index extends Component {
             data-delay="10"
           >
             <h1 className="c-home__tittle">
-              I'm Aleksandra <br /> and i'm future front-end developer{" "}
+              I'm Aleksandra <br /> and i'm the future front-end developer{" "}
             </h1>
           </div>
           <div className="c-home__button">

@@ -83,15 +83,15 @@ class Navigation extends Component {
         />
         <ul style={clickStyles2}>
           <li onClick={this.state.open ? this.handleClick : null}>
-            <NavLink exact to="/">
+            <NavLink exact to="/LuthienDesign/">
               HOME
             </NavLink>
           </li>
           <li onClick={this.state.open ? this.handleClick : null}>
-            <NavLink to="/work/digitalpainting">MY WORKS</NavLink>
+            <NavLink to="/LuthienDesign/work/digitalpainting">MY WORKS</NavLink>
           </li>
           <li onClick={this.state.open ? this.handleClick : null}>
-            <NavLink to="/aboutme">ABOUT ME</NavLink>
+            <NavLink to="/LuthienDesign/aboutme">ABOUT ME</NavLink>
           </li>
         </ul>
 

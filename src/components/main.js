@@ -13,7 +13,7 @@ const Main = () => (
       <Navigation />
       <div className="website__website-body">
         <Switch>
-          <Route exact path="/" component={Index} />
+          <Route exact path="/LuthienDesign/" component={Index} />
           <Route path="/aboutme" component={About} />
           <Route path="/work" component={Work} />
         </Switch>

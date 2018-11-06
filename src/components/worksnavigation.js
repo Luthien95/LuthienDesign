@@ -8,19 +8,23 @@ class WorksNavigation extends Component {
       <nav className="website__works-navigation">
         <ul>
           <li>
-            <NavLink to="/work/digitalpainting">DIGITAL PAINTING</NavLink>
+            <NavLink to="/LuthienDesign/work/digitalpainting">
+              DIGITAL PAINTING
+            </NavLink>
           </li>
           |
           <li>
-            <NavLink to="/work/illustration">ILUSTRATIONS</NavLink>
+            <NavLink to="/LuthienDesign/work/illustration">
+              ILUSTRATIONS
+            </NavLink>
           </li>
           |
           <li>
-            <NavLink to="/work/webdesign">WEB DESIGN</NavLink>
+            <NavLink to="/LuthienDesign/work/webdesign">WEB DESIGN</NavLink>
           </li>
           |
           <li>
-            <NavLink to="/work/web">PROJECTS</NavLink>
+            <NavLink to="/LuthienDesign/work/web">PROJECTS</NavLink>
           </li>
         </ul>
       </nav>

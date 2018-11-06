@@ -13,10 +13,17 @@ const Work = () => (
     <div className="c-work">
       <WorksNavigation />
       <Switch>
-        <Route exact path="/work/digitalpainting" component={DigitalPainting} />
-        <Route path="/work/illustration" component={Illustration} />
-        <Route path="/work/webdesign" component={WebDesign} />
-        <Route path="/work/web" component={Web} />
+        <Route
+          exact
+          path="/LuthienDesign/work/digitalpainting"
+          component={DigitalPainting}
+        />
+        <Route
+          path="LuthienDesign/work/illustration"
+          component={Illustration}
+        />
+        <Route path="/LuthienDesign/work/webdesign" component={WebDesign} />
+        <Route path="/LuthienDesign/work/web" component={Web} />
       </Switch>
     </div>
   </BrowserRouter>

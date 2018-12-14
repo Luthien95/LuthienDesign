@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.bb5de3e2.css",
   "main.css.map": "static/css/main.bb5de3e2.css.map",
-  "main.js": "static/js/main.f8e3b4c8.js",
-  "main.js.map": "static/js/main.f8e3b4c8.js.map",
+  "main.js": "static/js/main.69e6663b.js",
+  "main.js.map": "static/js/main.69e6663b.js.map",
   "static\\media\\arrow.png": "static/media/arrow.f8831b48.png",
   "static\\media\\head.png": "static/media/head.9bbe83e5.png",
   "static\\media\\ilu-1.jpg": "static/media/ilu-1.0e35f98a.jpg",
@@ -13,5 +13,6 @@
   "static\\media\\website1.jpg": "static/media/website1.24d82574.jpg",
   "static\\media\\website2.jpg": "static/media/website2.04cab903.jpg",
   "static\\media\\website3-1.jpg": "static/media/website3-1.eb1d0b34.jpg",
-  "static\\media\\website4.jpg": "static/media/website4.20dca19f.jpg"
+  "static\\media\\website4.jpg": "static/media/website4.20dca19f.jpg",
+  "static\\media\\website5.jpg": "static/media/website5.884d4114.jpg"
 }

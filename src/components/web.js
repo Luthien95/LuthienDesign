@@ -4,18 +4,33 @@ import FirstWebsite from "../img/website1.jpg";
 import SecondWebsite from "../img/website2.jpg";
 import ThirdWebsite from "../img/website3-1.jpg";
 import ForthWebsite from "../img/website4.jpg";
+import FifthWebsie from "../img/website5.jpg";
 
 class Web extends Component {
   render() {
     return (
       <div className="c-projects">
         <div className="c-projects__website">
-          <img src={FirstWebsite} alt="" />
+          <img src={FirstWebsite} alt="My portfolio" />
           <div className="o-website-description">
             <h3>My portfolio</h3>
             <p>website done in React</p>
             <a
               href="https://localhost:3000"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fas fa-angle-double-right" />
+            </a>
+          </div>
+        </div>
+        <div className="c-projects__website">
+          <img src={FifthWebsite} alt="Design Website" />
+          <div className="o-website-description">
+            <h3>Design & Design Website</h3>
+            <p>website done in React</p>
+            <a
+              href="https://luthien95.github.io/Design-Page/"
               target="_blank"
               rel="noopener noreferrer"
             >

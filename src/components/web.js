@@ -24,7 +24,8 @@ class Web extends Component {
           </div>
         </div>
         <div className="c-projects__website">
-          <img src={FifthWebsite} alt="Design Website" />
+          <img src={FifthWebsite} alt="Design Website" href="https://luthien95.github.io/Design-Page/"
+              target="_blank"/>
           <div className="o-website-description">
             <h3>Design & Design Website</h3>
             <p>website done in React</p>

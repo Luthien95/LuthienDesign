@@ -4,7 +4,7 @@ import FirstWebsite from "../img/website1.jpg";
 import SecondWebsite from "../img/website2.jpg";
 import ThirdWebsite from "../img/website3-1.jpg";
 import ForthWebsite from "../img/website4.jpg";
-import FifthWebsie from "../img/website5.jpg";
+import FifthWebsite from "../img/website5.jpg";
 
 class Web extends Component {
   render() {

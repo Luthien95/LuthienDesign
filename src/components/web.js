@@ -16,7 +16,7 @@ class Web extends Component {
             <p>website done in React</p>
             <i className="fas fa-angle-double-right" />
           </div>
-          <a href="https://localhost:3000" target="_blank" rel="noopener noreferrer"></a>
+          <a href="https://luthien95.github.io/LuthienDesign/" target="_blank" rel="noopener noreferrer"></a>
         </div>
         <div className="c-projects__website" alt="Design Website" href="https://luthien95.github.io/Design-Page/"
               target="_blank">

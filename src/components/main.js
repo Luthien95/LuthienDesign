@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Index from "./index";
 import About from "./aboutme";
@@ -33,10 +33,9 @@ class Main extends Component {
           <Navigation />
           <div className="website__website-body">
             <Switch>
-              <Route exact path="/" component={Index} />
-              <Route path="/aboutme" component={About} />
-              <Route path="/contact" component={Contact} />
-              <Route path="/work" component={Work} />
+              <Route exact path="/LuthienDesign/" component={Index} />
+              <Route path="/LuthienDesign/aboutme" component={About} />
+              <Route path="/LuthienDesign/work" component={Work} />
             </Switch>
           </div>
           <Footer />

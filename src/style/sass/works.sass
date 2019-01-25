@@ -23,13 +23,15 @@
         .o-image-description
             font-weight: 200
             line-height: 1.8
+            margin-right: 10px
     .o-image-container
         width: 100%
         height: 100%
         @include flexCenter
         position: relative
         img 
-            height: 100%
+            max-height: 100%
+            max-width: 100%
             object-fit: contain //for Chrome
             cursor: pointer
     .o-image-absolute
